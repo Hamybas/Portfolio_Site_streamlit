@@ -22,6 +22,8 @@ content2 = """Below you can find some of the apps I have build during my study a
             Feel free to contact me! And have a great day!"""
 st.info(content2)
 
+st.image('https://www.codewars.com/users/Hamybas/badges/large')
+
 col3, empty_column, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv('data.csv', sep=';')
